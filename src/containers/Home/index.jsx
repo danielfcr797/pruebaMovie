@@ -1,5 +1,7 @@
- import './style.css';
-
+ import './style.scss';
+ import {
+    Link
+  } from "react-router-dom";
 function HomeContainer() {
      return (
         <div className="container_main_home">
@@ -7,6 +9,7 @@ function HomeContainer() {
             <div>
                 <h3> 
                     <span className="muchas_clases"> COMA MIERDA!!</span>
+                    <Link to="/details"> ir a detalles </Link>
                 </h3>
             </div>
         </div>
