@@ -1,7 +1,31 @@
 $font: #141518;
 
 .container_login{
-    background-color: $font;
+    background-image: url(../../images/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 300px 0 300px rgba($color: #000000, $alpha: 0.1);
     width: 100%;
-    height: 100vh;
+    position: absolute;
+    height:  100%;
+    .bg_img_fondo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .box_shadow{
+        background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .container_body{
+        width: 100%;
+        height: calc(100% - 70px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
 }

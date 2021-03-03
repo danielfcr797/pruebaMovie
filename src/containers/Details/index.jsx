@@ -1,4 +1,4 @@
-import './style.scss';
+import {  } from "./style.scss";
 
 function DetailsContainer() {
      return (

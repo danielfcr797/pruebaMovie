@@ -12,6 +12,7 @@ function Router() {
           <Route exact path = "/" component={home} />
           <Route exact path = "/details" component={details} />
           <Route exact path = "/login" component={login}/>
+
         </Switch>
       </BrowserRouter>
   );

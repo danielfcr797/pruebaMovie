@@ -1,18 +1,26 @@
 import './style.scss';
-import {
-    Link
-  } from "react-router-dom";
-
+import HeaderLogin from '../../components/login/header/header';
+import Body from '../../components/login/body/body';
 function loginContainer() {
     return(
         <div className="container_login">
-            <header>
+            <div className="box_shadow">
+            </div>
+            <HeaderLogin></HeaderLogin>
+            <div className="container_body">
+
+                <Body>
+                    
+                </Body>
+               
+            </div>
                 
-            </header>
+
+
         </div>
 
+
     )
-    
 }
 
 export default loginContainer;
